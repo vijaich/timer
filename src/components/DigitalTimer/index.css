@@ -1,0 +1,113 @@
+/* Write your CSS here */
+.timer-bg-container {
+  background-image: linear-gradient(to right, #ffffff, #cffcf1);
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.timer-bg-image {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/digital-timer-elapsed-bg.png');
+  background-size: cover;
+  height: 70vh;
+  width: 30vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.timer-container {
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.timer-num {
+  font-family: roboto;
+  font-size: 30px;
+  font-weight: bolder;
+  color: #00d9f5;
+}
+
+.pause-resume {
+  color: #1e293b;
+  font-family: roboto;
+  font-size: 15px;
+  font-weight: 600;
+  margin-top: 0px;
+}
+
+.timer {
+  height: 150px;
+  width: 150px;
+  background-color: #ffffff;
+  border-radius: 90px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.timer-control-sec {
+  display: flex;
+  flex-direction: column;
+}
+
+.resume-pause-container {
+  display: flex;
+  margin-left: 40px;
+}
+
+.icon {
+  height: 30px;
+  margin-right: 30px;
+}
+
+.pause-resume-icon {
+  display: flex;
+  align-items: center;
+  margin-right: 20px;
+  font-family: roboto;
+  color: #0f172a;
+}
+.button-sec {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+button {
+  background-color: transparent;
+  border-width: 0px;
+  font-size: 30px;
+  height: 30px;
+  width: 60px;
+}
+.timer-number {
+  background-color: #17ece2;
+  height: 40px;
+  width: 70px;
+  border-radius: 7px;
+  font-size: 18px;
+  color: #ffffff;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.timer-limit-description {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 14px;
+  font-weight: 800;
+  font-family: roboto;
+  margin-bottom: -2px;
+}
+.start-pause-btn {
+  font-size: 15px;
+}
